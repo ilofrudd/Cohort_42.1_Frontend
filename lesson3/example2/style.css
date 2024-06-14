@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.block1 {
+    background-color: rgba(128, 1, 231, 0.679);
+    width: 50%;
+}
+.inner1 {
+    width:  200px;
+    height: 200px;
+    background-color: rgb(205, 208, 7);
+    color: black;
+    text-align: justify;
+    border: solid 15px rgb(0, 34, 255);
+    /*border-radius: 10px;*/
+    /*margin/padding-top: 25px;
+    margin/padding-left: 25px;
+    margin/padding-bottom: 25px;
+    margin/padding-right: 25px;*/
+    /*margin/padding: 25px;  all side 20px*/
+    /* margin/padding: 25px 60px 30px; top, left and right, bottom */
+    /* margin/padding: 25px 60px 30px 90px; */
+    /* margin/padding: auto auto; */
+    margin: 25px auto;
+    padding: 10px 10px;
+
+}
+
+.block2 {
+    width:  100px;
+    height: 100px;
+    background-color: burlywood;
+    margin: 20px 40px;/* top and bottom is 20px, left and right - 40px*/
+}

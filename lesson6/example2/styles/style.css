@@ -1,0 +1,15 @@
+.f {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    background-color: brown;
+    
+}
+
+.f-item {
+    width: 300px;
+    height: 300px;
+    background-color: burlywood;
+    flex-grow: 0;
+    margin: 25px 0px 25px 25px;
+}
