@@ -30,13 +30,15 @@ textElement.append(testLinkElement);
 //mainHeaderOfDoc.remove(); // remove completely
 //textElement.textContent = ''; 
 
-// Button
+// Button use
 const buttonElement = document.querySelector('#test-button');
-console.log(buttonElement);
+
+// Input  use
+const inputElement = document.querySelector('#test-input');
 
 const btnClickHandler = () => {
     console.log('Button Click!!!');
-    mainHeaderOfDoc.textContent = 'The button is clickied';
+    const textFromInput = inputElement.value;
+    mainHeaderOfDoc.textContent = `We entered input  ${textFromInput}`;
 }
-
 buttonElement.addEventListener('click', btnClickHandler);
